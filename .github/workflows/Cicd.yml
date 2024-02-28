@@ -8,12 +8,12 @@ on:
 # Here the environment variable is declared in workflow level
 env:
   # Replace with your Orchestrator Values 
-  ORCHESTRATOR_URL: "https://desktop-3spkt26/"
-  ORCHESTRATOR_FOLDER: "Shared"
+  ORCHESTRATOR_URL: "https://desktop-dkphe2o/"
+  ORCHESTRATOR_FOLDER: "Test"
   Tenant: "Default"
-  applicationId: "87fa8590-b0a6-4240-b02d-efbd4bf25b0d"
-  applicationSecret: "$@hgfSf#~s20j7b#" 
-  applicationScope: "OR.Assets OR.BackgroundTasks OR.Execution OR.Folders OR.Jobs OR.Machines.Read OR.Monitoring OR.Robots.Read OR.Settings.Read OR.Tasks OR.TestSetExecutions OR.TestSets OR.TestSetSchedules OR.Users.Read"
+  applicationId: "83a70020-d8e2-4027-b5e2-017702d7a864"
+  applicationSecret: "?YRwzw5BtqAUUTIF" 
+  applicationScope: "OR.Execution OR.Assets OR.Jobs OR.Users.Read OR.Machines.Read OR.Robots.Read OR.Settings.Read OR.TestSetExecutions OR.TestSetSchedules OR.TestSets OR.BackgroundTasks OR.Folders"
 
 jobs:
   print-details:
